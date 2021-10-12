@@ -10,7 +10,7 @@ Seems awsome, right?
 Create quick-notes, think and solve math problems with ease on your computer!<br>
 There is now no need of tablet!
 
-### Hmmm but wait, there is an Inklet wich does it
+### What about inklet?
 No.<br>
 With inklet you NEED click, in miceink you do not need ANY click (but you can, if you want)
 
@@ -21,17 +21,17 @@ and you need to quicknote note something but instead you need to<br>
 make click-click-click-click-click, it makes very nervous, right?<br>
 Miceink makes it easy to draw everything without clicks
 
-### But... How it works?
+### How it works?
 
 Miceink detects speed of your mouse movement and then miceink can determine to turn on/off the pen.<br>
 Thats no more philospohy!
 
-### So how to run?
+### How to run?
 
 Running is very easy!<br>
 Only what you need is to download a binary from Releases tab on our github repository, run it, and there you are!
 
-### Ok, but does are some tutorials on that?
+### Tutorials
 
 It is very simple.<br>
 After you ran app, click to enable the system (program needs to know when you started drawing). If you drawing something it automatically turns on/off your pen.
@@ -43,7 +43,7 @@ After you ran app, click to enable the system (program needs to know when you st
 
 ### Can I contribute?
 
-YES! If you think that project can be improved you're welcome to create issues, and PR's!
+If you think that project can be improved you're welcome to create issues, and PR's!
 
 There is also AWSOME list of things that we might do in the projects tab :)<br>
 If you want, you can help us achiing something listed there!
