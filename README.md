@@ -10,7 +10,7 @@ Seems awsome, right?
 Create quick-notes, think and solve math problems with ease on your computer!<br>
 There is now no need of tablet!
 
-**Hmmm but wait, there is an Inklet wich does it**<br>
+### Hmmm but wait, there is an Inklet wich does it
 No.<br>
 With inklet you NEED click, in miceink you do not need ANY click (but you can, if you want)
 
