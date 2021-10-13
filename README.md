@@ -12,6 +12,8 @@ It is very natural and experience is very simmilar to a paper-drawing experience
 <p algin="center">
     <img src="./examples/figures.png">
     <img src="./examples/equantions.png">
+    <img src="./examples/miceink_is_cool.png">
+    <img src="./examples/cool_things.png">
 </p>
 
 ## What about Inklet?
@@ -41,7 +43,6 @@ If you drawing something it automatically turns on/off your pen.
 
 ### List of commands
 
-~~**Right click** `->` Toogles the system wich runs moves selection algorithm~~<br>
 **Left click** `->` Toogles the drawing system<br>
 **"S" key** `->` Saves your current work into `miceink YY-MM-DD HH:M:S.` in `../out` dir.
 
