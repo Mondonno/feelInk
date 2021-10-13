@@ -10,10 +10,9 @@ It is very natural and experience is very simmilar to a paper-drawing experience
 
 ## MiceInk in action 
 <p algin="center">
-    <img src="./examples/figures.png">
-    <img src="./examples/equantions.png">
-    <img src="./examples/miceink_is_cool.png">
-    <img src="./examples/cool_things.png">
+    <img src="./examples/figures.png" width="300" height="175">
+    <img src="./examples/equantions.png" width="300" height="175">
+    <img src="./examples/miceink_is_cool.png" width="300" height="175">
 </p>
 
 ## What about Inklet?
