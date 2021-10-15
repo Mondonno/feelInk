@@ -45,7 +45,7 @@ If you drawing something it automatically turns on/off your pen.
 ### List of commands
 
 **Left click** `->` Toogles the drawing system<br>
-**"S" key** `->` Saves your current work into `miceink YY-MM-DD HH:Mm:Ss.png` in `../out` dir.
+**"S" key** `->` Saves your current work into `miceink YY-MM-DD HH:Mm:Ss.png` in `../out` dir.<br>
 **"C" key** `->` Clears the miceink window
 
 ## Can I contribute?
