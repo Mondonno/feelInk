@@ -1,7 +1,6 @@
 <!-- to check -->
 
 [![Maintainer](https://img.shields.io/badge/maintainer-Mondonno-blue)](https://github.com/Mondonno)
-[![License](https://img.shields.io/github/license/Mondonno/miceInk.svg)](https://github.com/Mondonno/miceInk/blob/main/LICENSE)
 [![Latest release](https://badgen.net/github/release/Naereen/Strapdown.js)](https://github.com/Mondonno/miceInk/releases)
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 
@@ -23,7 +22,7 @@ It is very natural and experience is very simmilar to a paper-drawing :)
     <img src="./examples/miceink_is_cool.png" width="300" height="175">
     <img src="./examples/cool_things.png" width="300" height="175">
 </p>
-
+<p algin="center"><img src="./examples/gif_miceink.gif"></p>
 
 ## What about Inklet?
 With inklet you need to click every time if you want to turn off the pen<br>
