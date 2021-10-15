@@ -1,11 +1,20 @@
+# APP CONSTANTS 
+
 TOUCH_PAD_MACOS_SPEED = 220 # 101 | 210
-TOUCH_PAD_MACOS_CONSISTENCY = 160 # 155
+TOUCH_PAD_MACOS_CONSISTENCY = 170 # 155
 
 STANDARD_BRUSH_SIZE = 4
 BRUSH_TYPE = 0 # 0 = Circle | 1 = Line
 
+BOARD_COLOR = (255, 255,255)
+BRUSH_COLOR = (0,0,0)
+
 BOARD_X_DISSMENSION = 1200
 BOARD_Y_DISSMENSION = 700
+
+# IN-CONSTANTS
+
+FRAME_TICK = 30
 
 ICON_PATH = "../assets/asset2.png"
 
@@ -13,4 +22,4 @@ SAVE_FILE_PATH = "../out/"
 SAVE_FILE_NAME = "miceink"
 SAVE_FILE_EXT = "png"
 
-TITLE = "Miceink"
+TITLE = "Miceink - Draw paper-like with your touchpad" 
