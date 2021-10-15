@@ -1,7 +1,7 @@
 <!-- to check -->
 
 [![Maintainer](https://img.shields.io/badge/maintainer-Mondonno-blue)](https://github.com/Mondonno)
-[![License](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Mondonno/miceInk/blob/main/LICENSE)
+[![License](https://img.shields.io/github/license/Mondonno/miceInk.svg)](https://github.com/Mondonno/miceInk/blob/main/LICENSE)
 [![Latest release](https://badgen.net/github/release/Naereen/Strapdown.js)](https://github.com/Mondonno/miceInk/releases)
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 
