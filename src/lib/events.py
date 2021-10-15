@@ -11,6 +11,7 @@ class MiceInkEvents():
     def __init__(self, parent):
         self.data = parent.data # THIS SHOULD BE REFERENCE
         self.mainParent = parent.parent # THIS SHOULD BE REFERENCE
+        self._parent = parent
 
     def getEvents(self):
         return self.eventTag.registredEvents;
@@ -73,7 +74,7 @@ class MiceInkEvents():
             pyGUI.image.save(screen, saveToPath)
 
         if event.key == pyGUI.K_c:
-            self.mainParent.fillDisplay()
+            self._parent.createNewBoard()
 
     @eventTag("Quit")
     def AppQuit(self, screen, event):

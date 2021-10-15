@@ -1,3 +1,11 @@
+<!-- to check -->
+
+[![Maintainer](https://img.shields.io/badge/maintainer-Mondonno-blue)](https://github.com/Mondonno)
+[![License](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Mondonno/miceInk/blob/main/LICENSE)
+[![Latest release](https://badgen.net/github/release/Naereen/Strapdown.js)](https://github.com/Mondonno/miceInk/releases)
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
+
+
 ## Mice Ink
 *Creates paper like drawing experience on computers*
 
@@ -6,7 +14,7 @@ Miceink is app created to create paper-like drawing experience on touchpads and 
 With Miceink you can draw on your touchpad with ease<br>
 
 Create quick-notes, think and solve math problems with ease on your computer!<br>
-It is very natural and experience is very simmilar to a paper-drawing experience :)
+It is very natural and experience is very simmilar to a paper-drawing :)
 
 ## MiceInk in action 
 <p algin="center">
