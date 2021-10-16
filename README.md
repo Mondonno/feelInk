@@ -6,7 +6,8 @@
 
 
 ## Mice Ink
-*Creates paper like drawing experience on computers*
+*Creates paper like drawing experience on computers*<br>
+[View online demo to see how it works](https://mondonno.github.io/miceInk/)
 
 ## What is it?
 Miceink is app created to create paper-like drawing experience on touchpads and mouses<br>
