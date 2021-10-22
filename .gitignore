@@ -5,3 +5,7 @@ miceink*.png
 out/
 out
 test/
+dist/
+build/
+compile.txt
+*.spec
