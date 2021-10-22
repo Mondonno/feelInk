@@ -5,7 +5,7 @@ from misc.constants import *
 
 from .engine import *
 
-class MiceInkStartup():
+class MiceInkApp():
     def __init__(self):
         self.clock = pygame.time.Clock()
         
@@ -30,7 +30,7 @@ class MiceInkStartup():
         self.screen = pygame.display.set_mode([BOARD_X_DISSMENSION, BOARD_Y_DISSMENSION],1)
 
     def initEngine(self):
-        self.engine = MiceInk(self.screen, self)
+        self.engine = MiceInkEngine(self.screen, self)
 
     def initLoop(self):
         self.running = True

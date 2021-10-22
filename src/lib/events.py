@@ -1,4 +1,5 @@
 from misc.utils import *
+from misc.math_utils import *
 from misc.constants import *
 from misc.tags import EventTagger
 
@@ -9,8 +10,8 @@ class MiceInkEvents():
     eventTag = EventTagger()
 
     def __init__(self, parent):
-        self.data = parent.data # THIS SHOULD BE REFERENCE
-        self.mainParent = parent.parent # THIS SHOULD BE REFERENCE
+        self.data = parent.data 
+        self.mainParent = parent.parent 
         self._parent = parent
 
     def getEvents(self):
@@ -25,16 +26,18 @@ class MiceInkEvents():
             self.data.currentX = mX
             self.data.currentY = mY
                 
+        time = getTimesDiffrence(self.data.lastTime)
         speed = getSpeedOfPoints(self.data.currentX,
             self.data.currentY,
             mX, mY,
-            self.data.lastTime)
+            time)
+        boost = getBoostOfSpeed(speed, time)
 
-        if self.data.lastSpeed != None:
-            consistency = abs(self.data.lastSpeed - speed)
+        if self.data.lastBoost != None:
+            consistency = abs(self.data.lastBoost - boost)
 
-        if (self.data.lastSpeed != None
-            and consistency <= TOUCH_PAD_MACOS_CONSISTENCY
+        if (self.data.lastBoost != None
+            and consistency <= TOUCH_PAD_MACOS_CONSISTENCY_BOOST
             and self.data.mouseStatus == False):
             self.data.penOn = True
         elif self.data.penOn == True:
@@ -53,7 +56,7 @@ class MiceInkEvents():
                     width=self.data.brushSize)
 
         self.data.lastTime = datetime.now()
-        self.data.lastSpeed = speed
+        self.data.lastBoost = boost
 
         self.data.currentX = mX
         self.data.currentY = mY

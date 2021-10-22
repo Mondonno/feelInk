@@ -9,6 +9,8 @@
 *Creates paper like drawing experience on computers*<br>
 [View online demo to see how it works](https://mondonno.github.io/miceInk/)
 
+**Warning!** Online demo makes only representative role, it can have some unexpected bugs that are fixed in main program, or features.
+
 ## What is it?
 Miceink is app created to create paper-like drawing experience on touchpads and mouses<br>
 With Miceink you can draw on your touchpad with ease<br>
@@ -36,10 +38,12 @@ Then it provides process to check if the move is consitent, if it is MiceInk tur
 
 ## How to run?
 
-It can be done in 4 steps
+MiceInk requires python version `>= 3v`<br>
+
+Running can be done in 4 steps
 
 1. Launch terminal
-2. Install GUI library `pip3 install pygame`
+2. Install GUI library `pip3 install pygame` (or with normal pip `pip install pygame`)
 3. Clone the repository `git clone https://github.com/Mondonno/miceink.git`
 4. Type `cd src`
 5. Then run it via python `python3 main.py`

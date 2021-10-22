@@ -2,8 +2,8 @@ from .data import *
 from .events import *
 from misc.constants import *
 
-class MiceInk():
-    def __init__(self, screen, parent):
+class MiceInkEngine():
+    def __init__(self, screen, parent, callbacks = {}):
         self.data = MiceInkData()
 
         self.screen = screen
@@ -12,6 +12,8 @@ class MiceInk():
         self.events = {}
         self.eventsHandler = MiceInkEvents(self)
 
+        self.callbacks = {}
+        
         self.loadEvents()
 
     def createNewBoard(self):
@@ -29,6 +31,11 @@ class MiceInk():
         for ev in foundEvents:
             ev(self.eventsHandler,self.screen, event)
 
+        if not eventName in self.callbacks:
+            return None
+
+        # TODO: Make executing callbacks due to implementing training models
+        
     def handleLoop(self, eventsData):
         self.handleEvents(eventsData)
 

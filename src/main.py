@@ -1,7 +1,7 @@
-from lib.startup import MiceInkStartup
+from lib.app import MiceInkApp
 
 def main():
-    startup = MiceInkStartup()
+    startup = MiceInkApp()
     startup.start() # starts main miceink process
 
 try:
