@@ -56,3 +56,8 @@ To compile it into standalone binary follow `compile.txt`
 - **Left click** `->` Toogles the drawing state manually<br>
 - **"S" key** `->` Saves your current work into `../out/*` directory.<br>
 - **"C" key** `->` Clears the app canvas.
+
+# ⚠️ Warning
+
+**IS IS A PROOF OF CONCEPT**
+Not finished app. It will be rewrited a few times before it will launch into it desired state.
