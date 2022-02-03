@@ -59,6 +59,6 @@ To compile it into standalone binary follow `compile.txt`
 
 ### ⚠️ Warning
 
-**IS IS A PROOF OF CONCEPT**<br>
+**IT IS A PROOF OF CONCEPT**<br>
 Not finished app.<br>
 It will be rewrited a few times before it will launch into it desired state.
