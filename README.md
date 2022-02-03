@@ -5,7 +5,7 @@
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 
 
-## TouchInk
+## FeelInk
 *Creates paper like drawing experience on desktops*<br>
 [View online demo to see how it works](https://mondonno.github.io/feelInk/)
 
