@@ -57,7 +57,8 @@ To compile it into standalone binary follow `compile.txt`
 - **"S" key** `->` Saves your current work into `../out/*` directory.<br>
 - **"C" key** `->` Clears the app canvas.
 
-# ⚠️ Warning
+### ⚠️ Warning
 
-**IS IS A PROOF OF CONCEPT**
-Not finished app. It will be rewrited a few times before it will launch into it desired state.
+**IS IS A PROOF OF CONCEPT**<br>
+Not finished app.<br>
+It will be rewrited a few times before it will launch into it desired state.
