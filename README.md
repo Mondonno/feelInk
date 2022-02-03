@@ -29,7 +29,7 @@ It creates very natural and experience is very simmilar to a paper-drawing.
     <img src="./examples/figures.png" width="300" height="175">
     <img src="./examples/equantions.png" width="300" height="175">
     <img src="./examples/cool_things.png" width="300" height="175">
-    <img src="./examples/gif_of_usage.gif">
+    <img src="./examples/gif_of_usage.gif" width="300" height="175">
 </p>
 
 ## How it works?
