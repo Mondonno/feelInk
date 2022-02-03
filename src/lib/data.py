@@ -1,7 +1,7 @@
 from datetime import datetime
 from misc.constants import STANDARD_BRUSH_SIZE
 
-class MiceInkData():
+class InkData():
     def __init__(self):
         self.lastTime = datetime.now()
         self.lastBoost = None

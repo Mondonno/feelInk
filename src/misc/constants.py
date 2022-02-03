@@ -20,7 +20,7 @@ FRAME_TICK = 30
 ICON_PATH = "../assets/window_icon.png"
 
 SAVE_FILE_PATH = "../out/"
-SAVE_FILE_NAME = "miceink"
+SAVE_FILE_NAME = "feelink"
 SAVE_FILE_EXT = "png"
 
-TITLE = "Miceink - Draw paper-like with your touchpad" 
+TITLE = "FeelInk - Paperlike experince" 

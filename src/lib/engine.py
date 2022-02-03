@@ -2,15 +2,15 @@ from .data import *
 from .events import *
 from misc.constants import *
 
-class MiceInkEngine():
+class InkEngine():
     def __init__(self, screen, parent, callbacks = {}):
-        self.data = MiceInkData()
+        self.data = InkData()
 
         self.screen = screen
         self.parent = parent
 
         self.events = {}
-        self.eventsHandler = MiceInkEvents(self)
+        self.eventsHandler = InkEvents(self)
 
         self.callbacks = {}
         

@@ -5,7 +5,7 @@ from misc.tags import EventTagger
 
 from datetime import datetime
  
-class MiceInkEvents():
+class InkEvents():
     # defining the tagger that will tag all event functions
     eventTag = EventTagger()
 

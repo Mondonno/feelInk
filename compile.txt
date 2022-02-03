@@ -1,0 +1,5 @@
+cd src
+
+pyinstaller --onefile main.py --add-data "../assets:assets"
+
+pyinstaller --onefile main.spec --add-data "../assets:assets"
